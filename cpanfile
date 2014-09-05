@@ -1,6 +1,10 @@
-requires 'perl', '5.008005';
+requires 'perl', '5.010010';
 
-# requires 'Some::Module', 'VERSION';
+requires 'Cwd';
+requires 'File::Find';
+requires 'File::ReadBackwards';
+requires 'File::Spec';
+requires 'Test::Builder';
 
 on test => sub {
     requires 'Test::More', '0.96';

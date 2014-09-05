@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use 5.010010;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Cwd qw/cwd/;
 use File::Find;

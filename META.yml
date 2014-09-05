@@ -22,9 +22,14 @@ no_index:
     - eg
     - examples
 requires:
-  perl: '5.008005'
+  Cwd: '0'
+  File::Find: '0'
+  File::ReadBackwards: '0'
+  File::Spec: '0'
+  Test::Builder: '0'
+  perl: '5.010010'
 resources:
   bugtracker: https://github.com/Csson/p5-test-eofnewlines/issues
   homepage: https://github.com/Csson/p5-test-eofnewlines
   repository: https://github.com/Csson/p5-test-eofnewlines.git
-version: '0.01'
+version: '0.02'
