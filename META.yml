@@ -32,4 +32,4 @@ resources:
   bugtracker: https://github.com/Csson/p5-test-eofnewlines/issues
   homepage: https://github.com/Csson/p5-test-eofnewlines
   repository: https://github.com/Csson/p5-test-eofnewlines.git
-version: '0.02'
+version: '0.03'

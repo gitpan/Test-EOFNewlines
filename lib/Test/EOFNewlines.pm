@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use 5.010010;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Cwd qw/cwd/;
 use File::Find;
@@ -173,6 +173,8 @@ Test::EOFNewlines - Check correct end of files in your project.
   done_testing();
 
 =head1 DESCRIPTION
+
+Deprecated. Renamed L<Test::EOF>. This distribution will soon be removed.
 
 This module is used to check the end of files of Perl modules and scripts. It is a way to make sure that files and with (at least) one line break.
 
